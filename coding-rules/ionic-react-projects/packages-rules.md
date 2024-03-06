@@ -10,8 +10,8 @@
 
 ### Packages
 
-| name of package      | link to package | why we used it     |
-| ---                  | ---             | ---                |
+| name of package      | link to package | why we used it     | replays alternatives |
+| ---                  | ---             | ---                | ---                  |
 | Recoil               | <https://recoiljs.org/> | Recoil will be used for managing the global state of the application. |
 | TanStack React Query | <https://tanstack.com/query/latest> | Powerful asynchronous state management for TS/JS &handling API requests and caching |
 | TanStack React Table | <https://tanstack.com/table/latest> | Utilizing TanStack Table for creating interactive and tables. Headless UI for building powerful tables & datagrids. |
