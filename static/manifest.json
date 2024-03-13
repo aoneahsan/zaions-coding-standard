@@ -8,8 +8,7 @@
 	"icons": [
 		{
 			"src": "img/logo.svg",
-			"sizes": "200x200",
-			"type": "image/svg"
+			"sizes": "any"
 		}
 	],
 	"related_applications": [
@@ -22,14 +21,14 @@
 	"screenshots": [
 		{
 			"src": "/screenshots/web.png",
-			"sizes": "1280×586",
+			"sizes": "1280x586",
 			"type": "image/png",
 			"form_factor": "wide",
 			"label": "Zaions Docz App - Web Version"
 		},
 		{
 			"src": "screenshots/mobile.png",
-			"sizes": "452×980",
+			"sizes": "452x980",
 			"type": "image/png",
 			"form_factor": "narrow",
 			"label": "Zaions Docz App - Mobile Version"
