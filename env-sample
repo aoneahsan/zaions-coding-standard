@@ -1,0 +1,3 @@
+ALGOLIA_SEARCH_ONLY_API_KEY=Enter your algoia search only key here (it's required)
+ALGOLIA_APP_ID=Enter your algoia application id here (it's optional)
+ALGOLIA_INDEX_NAME=not fully sure what this is, but for now i have added "zaions_docz_dev_Users" as it's value

@@ -1,0 +1,38 @@
+{
+	"name": "Zaions Internal Documentation",
+	"short_name": "Zaions Docz",
+	"start_url": ".",
+	"display": "standalone",
+	"background_color": "#fff",
+	"description": "Zaions Company Internal Documentation. Rules for coding, designing, testing and more. Projects Records and much more.",
+	"icons": [
+		{
+			"src": "img/logo.svg",
+			"sizes": "200x200",
+			"type": "image/svg"
+		}
+	],
+	"related_applications": [
+		{
+			"platform": "play",
+			"url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+		}
+	],
+	"theme_color": "rgb(37, 194, 160)",
+	"screenshots": [
+		{
+			"src": "/screenshots/web.png",
+			"sizes": "1280×586",
+			"type": "image/png",
+			"form_factor": "wide",
+			"label": "Zaions Docz App - Web Version"
+		},
+		{
+			"src": "screenshots/mobile.png",
+			"sizes": "452×980",
+			"type": "image/png",
+			"form_factor": "narrow",
+			"label": "Zaions Docz App - Mobile Version"
+		}
+	]
+}

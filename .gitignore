@@ -29,3 +29,6 @@ package-lock*
 *.lock
 
 pnpm-lock*
+
+
+*.env

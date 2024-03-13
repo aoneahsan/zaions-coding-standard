@@ -1,6 +1,6 @@
 {
 	"name": "zaions-docz-v-1",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"docusaurus": "docusaurus",
@@ -15,7 +15,9 @@
 		"typecheck": "tsc"
 	},
 	"dependencies": {
+		"@cmfcmf/docusaurus-search-local": "^1.1.0",
 		"@docusaurus/core": "3.1.1",
+		"@docusaurus/plugin-pwa": "^3.1.1",
 		"@docusaurus/preset-classic": "3.1.1",
 		"@mdx-js/react": "^3.0.1",
 		"clsx": "^2.1.0",
@@ -27,6 +29,7 @@
 		"@docusaurus/module-type-aliases": "3.1.1",
 		"@docusaurus/tsconfig": "3.1.1",
 		"@docusaurus/types": "3.1.1",
+		"dotenv": "^16.4.5",
 		"typescript": "~5.4.2"
 	},
 	"browserslist": {
@@ -44,5 +47,5 @@
 	"engines": {
 		"node": ">=18.0"
 	},
-	"packageManager": "^pnpm@8.12.0"
+	"packageManager": "pnpm@8.12.0"
 }
