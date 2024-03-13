@@ -38,7 +38,16 @@ const config: Config = {
 	// may want to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: 'en',
-		locales: ['en'],
+		locales: ['en', 'fr'],
+		localeConfigs: {
+			en: {
+				htmlLang: 'en-GB',
+			},
+			// You can omit a locale (e.g. fr) if you don't need to override the defaults
+			fr: {
+				direction: 'rtl',
+			},
+		},
 	},
 
 	presets: [
@@ -103,6 +112,10 @@ const config: Config = {
 				{
 					type: 'docsVersionDropdown',
 				},
+				{
+          type: 'localeDropdown',
+          position: 'left',
+        },
 			],
 		},
 		footer: {

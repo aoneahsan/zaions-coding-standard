@@ -1,0 +1,30 @@
+---
+sidebar_position: 3
+last_updated: 2024-03-13
+---
+
+# Working fine now
+
+Things setup so far
+
+- PWA
+- Service Worker
+- Web Push
+- Push Notifications
+
+export const HighlightV2 = ({ children, color }) => {
+	return (
+		<span
+			style={{
+				backgroundColor: color ?? 'red',
+				borderRadius: '2px',
+				color: '#fff',
+				padding: '0.2rem',
+			}}
+		>
+			{children}
+		</span>
+	);
+};
+
+<HighlightV2 >working</HighlightV2>

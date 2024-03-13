@@ -3,5 +3,8 @@
     "Docz",
     "hideable",
     "Infima"
-  ]
+  ],
+  "markdownlint.config": {
+    "default": false
+  }
 }
