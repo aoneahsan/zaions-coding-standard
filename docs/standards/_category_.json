@@ -1,7 +1,6 @@
 {
-  "label": "Standards",
-  "position": 4,
-  "link": {
-    "type": "generated-index"
-  }
+	"label": "Standards",
+	"link": {
+		"type": "generated-index"
+	}
 }

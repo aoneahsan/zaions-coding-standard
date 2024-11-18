@@ -1,47 +1,113 @@
 {
-  "name": "zaions-docs",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
-  },
-  "dependencies": {
-    "@docusaurus/core": "3.5.2",
-    "@docusaurus/preset-classic": "3.5.2",
-    "@mdx-js/react": "^3.1.0",
-    "clsx": "^2.1.1",
-    "prism-react-renderer": "^2.4.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.5.2",
-    "@docusaurus/tsconfig": "3.5.2",
-    "@docusaurus/types": "3.5.2",
-    "typescript": "~5.6.3"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 3 chrome version",
-      "last 3 firefox version",
-      "last 5 safari version"
-    ]
-  },
-  "engines": {
-    "node": ">=18.0"
-  }
+	"name": "zaions-standards",
+	"version": "1.0.0",
+	"displayName": "Zaions Development & Design Standards",
+	"private": false,
+	"homepage": "https://standards.zaions.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aoneahsan/zaions-coding-standard"
+	},
+	"bugs": {
+		"url": "https://github.com/aoneahsan/zaions-coding-standard/issues",
+		"email": "hi@aoneahsan.com"
+	},
+	"scripts": {
+		"docusaurus": "docusaurus",
+		"start": "docusaurus start",
+		"build": "docusaurus build",
+		"swizzle": "docusaurus swizzle",
+		"deploy": "docusaurus deploy",
+		"clear": "docusaurus clear",
+		"serve": "docusaurus serve",
+		"write-translations": "docusaurus write-translations",
+		"write-heading-ids": "docusaurus write-heading-ids",
+		"typecheck": "tsc"
+	},
+	"description": "Zaions Standards, Comprehensive development, design, testing, and organizational standards for software teams by Zaions. Coding/Designing/Testing and other standards defined by Zaions Team managed by Ahsan Mahmood (https://aoneahsan.com/linkedin), manager at Zaions (https://zaions.com) - We are updating and adding more standards in this comprehensive list of standards a dev/design/testing/marketing and other team can follow in a software house or any other organization to improve their productivity and generate results faster and better.",
+	"contributors": [
+		{
+			"name": "Ahsan Mahmood",
+			"email": "aoneahsan@gmail.com",
+			"url": "https://aoneahsan.com"
+		}
+	],
+	"funding": {
+		"type": "individual",
+		"url": "https://zaions.com/patreon"
+	},
+	"author": {
+		"email": "aoneahsan@gmail.com",
+		"name": "Ahsan Mahmood (aoneahsan)",
+		"url": "https://aoneahsan.com"
+	},
+	"categories": [
+		"AI",
+		"Notebooks",
+		"Other",
+		"Machine Learning",
+		"Programming Languages",
+		"Debuggers",
+		"Education",
+		"Chat",
+		"Testing"
+	],
+	"keywords": [
+		"zaions",
+		"ahsan mahmood",
+		"standards",
+		"zaions",
+		"standards",
+		"development",
+		"coding-standards",
+		"design-standards",
+		"testing-standards",
+		"best-practices",
+		"team-management",
+		"software-development",
+		"documentation",
+		"quality-assurance",
+		"project-management",
+		"web-development",
+		"mobile-development",
+		"full-stack",
+		"mern-stack",
+		"mean-stack",
+		"react",
+		"angular",
+		"nodejs",
+		"laravel"
+	],
+	"browserslist": {
+		"production": [
+			">0.5%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 3 chrome version",
+			"last 3 firefox version",
+			"last 5 safari version"
+		]
+	},
+	"engines": {
+		"node": "^22.2.0",
+		"yarn": "^1.22.22"
+	},
+	"engineStrict": true,
+	"dependencies": {
+		"@docusaurus/core": "3.6.1",
+		"@docusaurus/preset-classic": "3.6.1",
+		"@mdx-js/react": "^3.1.0",
+		"clsx": "^2.1.1",
+		"prism-react-renderer": "^2.4.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@docusaurus/module-type-aliases": "3.6.1",
+		"@docusaurus/tsconfig": "3.6.1",
+		"@docusaurus/types": "3.6.1",
+		"typescript": "~5.6.3"
+	}
 }
