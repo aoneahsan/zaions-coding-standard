@@ -1,6 +1,6 @@
 # Rules for Notifications, Alerts, Toasts, Prompts, Confirms etc
 
-## for all of these i should only find one import from package to create a custom helper function or custom hook then in whole project use that hook or helper function so when we need to refactor it will be easy
+- for all of these i should only find one import from package to create a custom helper function or custom hook then in whole project use that hook or helper function so when we need to refactor it will be easy
 
 ## Notifications
 
